@@ -2,7 +2,7 @@ import logo from "../assets/Frame 55.svg";
 
 const Navbar = () => {
   return (
-    <div className=" flex place-items-center w-[1300px] h-[60px] rounded-[15px] bg-[#525AA0] text-white px-4">
+    <div className=" flex place-items-center max-w-[96vw] mx-auto h-[60px] rounded-[15px] bg-[#525AA0] text-white px-3">
       <img
         src={logo}
         className="w-[112px] h-[27.35px]"
