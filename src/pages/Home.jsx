@@ -2,6 +2,24 @@ import React from "react";
 import face from "../assets/zwilt-tba-1-01 2.svg";
 import search from "../assets/Frame 626624.svg";
 import bars from "../assets/Union.png";
+import profile from "../assets/profile.svg";
+import category from "../assets/category.svg";
+import skill from "../assets/skill.svg";
+import shopify from "../assets/shopify.svg";
+import magneto from "../assets/magnito.svg";
+import data from "../assets/data.svg";
+import webflow from "../assets/webflow.svg";
+import dotnet from "../assets/dotnet.svg";
+import next from "../assets/next.svg";
+import previous from "../assets/previous.svg";
+import figma from "../assets/figma.svg";
+import photoshop from "../assets/photoshop.svg";
+import illustrator from "../assets/illustrator.svg";
+import unreal from "../assets/unreal.svg";
+import cinema from "../assets/cinema.svg";
+import whitenext from "../assets/whitenext.svg";
+
+import Talent from "../components/Talent";
 
 const home = () => {
   return (
@@ -81,15 +99,156 @@ const home = () => {
         />
       </div>
 
-      <div className=" flex justify-center relative h-[1130px] w-[4000px] bg-[#EDEFFF] -rotate-2 left-8 -mt-4 text-center">
-        <div className=" mt-[183px] rotate-2 text-center">
-          <h2 className=" font-[700] text-[54px] leading-[64px] w-[977px] h-[128px] text-center text-[#202229]">
+      {/* SECTION 2 */}
+
+      <div className=" flex justify-center relative h-[1130px] w-[110%] bg-[#EDEFFF] -rotate-2 -mt-4 text-center">
+        <div className=" flex flex-col items-center mt-[183px] rotate-2 text-center ">
+          <h2 className=" flex  font-[700] text-[54px] leading-[64px] w-[977px]  h-[128px] text-[#202229] mb-[90px]">
             Your one-stop marketplace for finding the talent your business
             needs.
           </h2>
-        </div>
 
-        <div></div>
+          <div className=" talent-box w-[1160px] mx-[70px] gap-16 mb-[30px] ">
+            <div>
+              <h2 className=" font-[500] text-[24px] leading-[34px] w-[380px] h-[68px] text-left text-[#202229] mb-5">
+                Find Dev and IT professionals to scale your business.
+              </h2>
+
+              <div className=" talent">
+                <img
+                  src={skill}
+                  alt="skills"
+                />
+                <img
+                  src={category}
+                  alt="skills"
+                />
+                <img
+                  src={profile}
+                  alt="skills"
+                />
+              </div>
+            </div>
+
+            <div className="w-[730px] h-[224px] bg-white px-7 rounded-[7px]">
+              <h3 className="text-[16px] leading-[23.78px] font-[500] text-left py-[18px] text-[#202229]">
+                IT & Development
+              </h3>
+
+              <div className="flex justify-around">
+                <Talent
+                  icon={shopify}
+                  name="Shopify Developer"
+                />
+
+                <Talent
+                  icon={magneto}
+                  name="Mageto Developer"
+                />
+
+                <Talent
+                  icon={data}
+                  name="Data Scientist"
+                />
+
+                <Talent
+                  icon={webflow}
+                  name="Webflow Developer"
+                />
+
+                <Talent
+                  icon={dotnet}
+                  name="Dot Net Developer"
+                />
+
+                <Talent
+                  icon={next}
+                  name=""
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className=" talent-box w-[1160px] mx-[70px] gap-16 mb-[30px] ">
+            <div>
+              <h2 className=" font-[500] text-[24px] leading-[34px] w-[380px] h-[68px] text-left text-[#202229] mb-5">
+                Explore Creative individuals with a keen eye for detail.
+              </h2>
+
+              <div className=" talent">
+                <img
+                  src={skill}
+                  alt="skills"
+                />
+                <img
+                  src={category}
+                  alt="skills"
+                />
+                <img
+                  src={profile}
+                  alt="skills"
+                />
+              </div>
+            </div>
+
+            <div className="w-[730px] h-[224px] bg-white px-7 rounded-[7px]">
+              <h3 className="text-[16px] leading-[23.78px] font-[500] text-left py-[18px] text-[#202229]">
+                Design & Creative
+              </h3>
+
+              <div className="flex justify-around">
+                <Talent
+                  icon={previous}
+                  name=""
+                />
+
+                <Talent
+                  icon={figma}
+                  name="UX Designer"
+                />
+
+                <Talent
+                  icon={photoshop}
+                  name="Graphics Designer"
+                />
+
+                <Talent
+                  icon={illustrator}
+                  name="Illustration Artist"
+                />
+
+                <Talent
+                  icon={unreal}
+                  name="Unreal Engine"
+                />
+
+                <Talent
+                  icon={cinema}
+                  name="Cinema 4D"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className=" explore w-[1160px] gap-16">
+            <div className="flex place-items-center">
+              <div className="inline-flex place-items-center justify-center w-[74px] h-[74px] bg-[#202229] rounded-[30px] ">
+                <img
+                  className="w-[25px] h-[15px]"
+                  src={whitenext}
+                  alt="zwilt"
+                />
+              </div>
+              <span className="mx-3 text-[22px] font-[500] leading-[18px] text-[#202229]">
+                Explore More
+              </span>
+            </div>
+
+            <p className="text-left font-[700] text-[22px] leading-8 text-[#202229] opacity-80">
+              30 more <span className="font-[500]">to explore</span>{" "}
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );

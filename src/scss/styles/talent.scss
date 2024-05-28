@@ -1,0 +1,16 @@
+.talent-box {
+  display: grid;
+  grid-template-columns: 0.4fr 1fr;
+  align-items: center;
+}
+
+.explore {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  align-items: center;
+}
+
+.talent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
