@@ -66,7 +66,7 @@ const home = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-3 mt-[23px] ml-[65px] font-[400] text-[16px] leading-[16px] text-[#959595]">
+        <div className="grid grid-cols-3 mt-[23px] ml-[65px] font-[400] text-[16px] leading-[16px] text-[#959595] mb-[74px]">
           <ul>
             <li className="mb-[18px] "> Phython Developer</li>
             <li className="mb-[18px] ">Shopify Developer</li>
@@ -94,7 +94,7 @@ const home = () => {
 
       <div>
         <img
-          className=" w-screen "
+          className=" w-screen mt-[74px]"
           src={bars}
         />
       </div>
