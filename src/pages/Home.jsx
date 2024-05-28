@@ -1,5 +1,5 @@
 import React from "react";
-import face from "../assets/zwilt-tba-1-01 2.svg";
+import face from "../assets/face.gif";
 import search from "../assets/Frame 626624.svg";
 import bars from "../assets/Union.png";
 import profile from "../assets/profile.svg";
@@ -28,9 +28,9 @@ const home = () => {
         Finding the right fit{" "}
         <span>
           <img
-            className="inline"
+            className="inline w-[68px] h-[43px]"
             src={face}
-            alt=""
+            alt="face"
           />
         </span>
         has never been easier.
@@ -96,14 +96,15 @@ const home = () => {
         <img
           className=" w-screen mt-[74px]"
           src={bars}
+          alt="zwilt"
         />
       </div>
 
       {/* SECTION 2 */}
 
-      <div className=" flex justify-center relative h-[1130px] w-[110%] bg-[#EDEFFF] -rotate-2 -mt-4 text-center">
+      <div className="flex justify-center relative h-[1130px] w-[110%] bg-[#EDEFFF] -rotate-2 -mt-4">
         <div className=" flex flex-col items-center mt-[183px] rotate-2 text-center ">
-          <h2 className=" flex  font-[700] text-[54px] leading-[64px] w-[977px]  h-[128px] text-[#202229] mb-[90px]">
+          <h2 className=" flex font-[700] text-[54px] leading-[64px] w-[977px]  h-[128px] text-[#202229] mb-[90px]">
             Your one-stop marketplace for finding the talent your business
             needs.
           </h2>
