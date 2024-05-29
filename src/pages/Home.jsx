@@ -24,11 +24,11 @@ import Talent from "../components/Talent";
 const home = () => {
   return (
     <div className="home flex place-items-center mt-[144px] flex-col">
-      <h2 className=" font-[700] font text-[54px] leading-[64px] w-[641px] text-center text-[#202229]">
+      <h2 className="font-[700] text-5xl md:text-5xl lg:text-[54px] leading-tight sm:leading-snug md:leading-tight lg:leading-[64px] w-full max-w-[90%] md:max-w-[70%] lg:max-w-[641px] text-center text-[#202229] mx-auto">
         Finding the right fit{" "}
         <span>
           <img
-            className="inline w-[68px] h-[43px]"
+            className="inline w-[40px] sm:w-[50px] md:w-[60px] lg:w-[68px] h-auto sm:h-[35px] md:h-[40px] lg:h-[43px]"
             src={face}
             alt="face"
           />

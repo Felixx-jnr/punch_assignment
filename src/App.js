@@ -3,7 +3,9 @@ import Home from "./pages/Home";
 import SectionC from "./pages/SectionC";
 import SectionD from "./pages/SectionD";
 import SectionE from "./pages/SectionE";
+import SectionF from "./pages/SectionF";
 import QuestionsSection from "./pages/QuestionsSection";
+import Footer from "./pages/Footer";
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
       <SectionC />
       <SectionD />
       <SectionE />
+      <SectionF />
       <QuestionsSection />
+      <Footer />
     </div>
   );
 }
