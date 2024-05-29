@@ -8,7 +8,7 @@ import apostrophe from "../assets/apostrophe.svg";
 
 const SectionC = () => {
   return (
-    <div className="relative flex justify-center items-center bg-[#202229] text-[#FFF] w-[110%] -left-4 h-[840px] -rotate-2 text-center ">
+    <div className="relative flex justify-center items-center bg-[#202229] text-[#FFF] w-[1532px] -left-4 h-[840px] -rotate-2 text-center ">
       <img
         className="absolute top-0 right-[130px]"
         src={apostrophe}
@@ -16,7 +16,7 @@ const SectionC = () => {
       />
       <div className="flex flex-col justify-l items-center mr-28 rotate-2 text-left">
         <div className=" flex gap-40 items-end ">
-          <div className="mr-">
+          <div className="">
             <h1 className="text-[54px] w-[379px] h-[192px] font-[700] leading-[64px] mb-[44px]">
               How it worked for Jason{" "}
               <img

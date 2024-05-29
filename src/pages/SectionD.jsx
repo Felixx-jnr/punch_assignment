@@ -3,7 +3,7 @@ import Accordion from "../components/Accordion";
 
 const SectionD = () => {
   return (
-    <div className="flex justify-left relative h-[1130px] w-[110%] bg-[#fff] -rotate-2 -mt-4">
+    <div className="flex justify-left relative h-[998px] w-[1440px] bg-[#fff] -rotate-2 -mt-4">
       <div className=" grid rotate-2 text-left ">
         <div className="mx-[70px]">
           <h2 className=" font-[700] text-[54px] leading-[64px] w-[570px] mt-[149px] mb-[30px]   text-[#202229]">

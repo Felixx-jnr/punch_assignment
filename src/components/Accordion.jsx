@@ -10,9 +10,36 @@ const Accordion = ({ items }) => {
   };
 
   const lists = [
-    { title: "Section 1", content: "Content for section 1" },
-    { title: "Section 2", content: "Content for section 2" },
-    { title: "Section 3", content: "Content for section 3" },
+    {
+      title: "Step 1",
+      desc: "Resume Screening",
+      content:
+        "Candidates are assessed through skill based questions in a virtual setting. Allowing you to gauge personality and cultural fit.",
+    },
+    {
+      title: "Step 2",
+      desc: "Video Interview",
+      content:
+        "Candidates are assessed through skill based questions in a virtual setting. Allowing you to gauge personality and cultural fit.",
+    },
+    {
+      title: "Step 3",
+      desc: "Technical Evaluation",
+      content:
+        "Candidates are assessed through skill based questions in a virtual setting. Allowing you to gauge personality and cultural fit.",
+    },
+    {
+      title: "Step 4",
+      desc: "Application Review",
+      content:
+        "Candidates are assessed through skill based questions in a virtual setting. Allowing you to gauge personality and cultural fit.",
+    },
+    {
+      title: "Step 5",
+      desc: "Let's get to work",
+      content:
+        "Candidates are assessed through skill based questions in a virtual setting. Allowing you to gauge personality and cultural fit.",
+    },
   ];
 
   return (
@@ -28,7 +55,7 @@ const Accordion = ({ items }) => {
             className="flex items-center py-2 cursor-pointer "
             onClick={() => handleClick(index)}
           >
-            <span className="mx-3">
+            <span className="mx-5">
               {activeIndex === index ? (
                 <img
                   src={play}
@@ -41,7 +68,9 @@ const Accordion = ({ items }) => {
                 />
               )}
             </span>
-            <h3 className="text-lg font-medium">{list.title}</h3>
+            <h3 className="font-[600] text-[16px] leading-[17.83px]">
+              {list.title} <span className="font-[400]">:{list.desc}</span>
+            </h3>
           </div>
 
           <div
@@ -49,7 +78,12 @@ const Accordion = ({ items }) => {
               activeIndex === index ? "max-h-screen p-4" : "max-h-0"
             }`}
           >
-            {activeIndex === index && <p>{list.content}</p>}
+            {activeIndex === index && (
+              <p className="font-[400] text-[16px] text-[#202229] leading-[26px] opacity-80">
+                {" "}
+                {list.content}
+              </p>
+            )}
           </div>
         </div>
       ))}
