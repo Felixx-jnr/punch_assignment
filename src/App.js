@@ -4,6 +4,7 @@ import SectionC from "./pages/SectionC";
 import SectionD from "./pages/SectionD";
 import SectionE from "./pages/SectionE";
 import SectionF from "./pages/SectionF";
+import SectionB from "./pages/SectionB";
 import QuestionsSection from "./pages/QuestionsSection";
 import Footer from "./pages/Footer";
 
@@ -12,6 +13,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Home />
+      <SectionB />
       <SectionC />
       <SectionD />
       <SectionE />

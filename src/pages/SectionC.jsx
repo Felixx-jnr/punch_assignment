@@ -8,16 +8,16 @@ import apostrophe from "../assets/apostrophe.svg";
 
 const SectionC = () => {
   return (
-    <div className="relative flex justify-center items-center bg-[#202229] text-[#FFF] w-[1532px] -left-4 h-[840px] -rotate-2 text-center ">
+    <div className=" flex items-center relative h-[840px] bg-[#202229] text-[#FFF] text-center -skew-y-2 ">
       <img
-        className="absolute top-0 right-[130px]"
+        className="absolute top-0 right-0"
         src={apostrophe}
         alt=""
       />
-      <div className="flex flex-col justify-l items-center mr-28 rotate-2 text-left">
-        <div className=" flex gap-40 items-end ">
-          <div className="">
-            <h1 className="text-[54px] w-[379px] h-[192px] font-[700] leading-[64px] mb-[44px]">
+      <div className=" relative left-1/2 -translate-x-1/2 text-left max-w-[90%] skew-y-2">
+        <div className="grid grid-cols-2 max-md:block gap-10 mx-2">
+          <div className=" w-[100%] mb-12">
+            <h1 className=" w-[343px] text-[54px] md:text-[42px] font-[700] leading-[4rem] mb-[44.002px] ">
               How it worked for Jason{" "}
               <img
                 className="inline rounded-full"
@@ -31,19 +31,19 @@ const SectionC = () => {
                 alt="groove"
               />
             </h1>
-            <p className="w-[461px] h-[64px] text-[22px] leading-[32px] font-[400] opacity-80 ">
+            <p className=" text-[22px] leading-[32px] font-[400] opacity-80 mb-10 ">
               Zwilt enabled us to deliver on time and they’ve been heavy hitters
               in our corner since.
             </p>
             <div className="flex mt-4">
-              <div className="relative rotate-180 bg-white w-[49.79px] h-[49.79px] rounded-[20.19px] mr-[16px]">
+              <div className="relative rotate-180 bg-white w-[49.793px] h-[49.793px] rounded-[20.19px] mr-[15.998px]">
                 <img
                   className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
                   src={blueprevious}
                   alt="previous"
                 />
               </div>
-              <div className="relative bg-white w-[49.79px] h-[49.79px] rounded-[20.19px]">
+              <div className="relative bg-white w-[49.793px] h-[49.793px] rounded-[20.19px]">
                 <img
                   className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
                   src={bluenext}
@@ -53,29 +53,29 @@ const SectionC = () => {
             </div>
           </div>
 
-          <div className="flex flex-col items-start">
-            <div className="flex gap-[16.21px] items-center mb-[56px]">
+          <div className="flex flex-col justify-end">
+            <div className=" flex gap-[16.207px] items-center mb-[56.002px] max-md:justify-end">
               <img
-                className="bg-[#AF7CFF] w-[98.79px] h-[98.79px] rounded-[40.05px] px-[11px] py-[40px]"
+                className="bg-[#AF7CFF] w-[98.79px] h-[98.79px] rounded-[40.05px] px-[11.003px] py-[39.998px]"
                 src={bordergroove}
                 alt="groove"
               />
               <div>
-                <h3 className="text-[34px] font-[600] leading-[44px]">
+                <h3 className="text-[33.998px] font-[600] leading-[44.002px]">
                   Jason Makki
                 </h3>
-                <p className="text-[#C6C4C4] text-[16px] leading-[18px] opacity-40 h-[18px] font-[400] tracking-wider my-[3px]">
+                <p className="text-[#C6C4C4] text-[15.998px] leading-[18px] opacity-40 font-[400] tracking-wider ">
                   Engineer at{" "}
-                  <span className="font-[500] text-[16px] leading-[18px]">
+                  <span className="font-[500] text-[15.998px] leading-[18px]">
                     GROOVE
                   </span>
                 </p>
-                <p className="text-[#fff] text-[16px] font-[300] tracking-wider leading-[18px] opacity-40 my-[10px]">
+                <p className="text-[#fff] text-[15.998px] font-[300] tracking-wider leading-[18px] opacity-40 my-[9.998px]">
                   San Francisco
                 </p>
               </div>
             </div>
-            <p className="w-[499px] text-[#fff] text-[22px] font-[400] leading-[32px] opacity-80">
+            <p className=" basis-40 text-[#fff] text-[21.997px] font-[400] leading-[32.003px] opacity-80">
               Zwilt enabled us to deliver on time and they’ve been heavy hitters
               in our corner since. Zwilt enabled us to deliver on time and
               they’ve been heavy hitters in our corner since. Zwilt enabled us

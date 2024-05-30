@@ -9,12 +9,9 @@ const QuestionsSection = () => {
           Frequently asked questions
         </h2>
 
-        <ul className="questions  ">
-          <li className=" relative flex justify-center items-center h-[112px] border-y border-[#D6D6D6] text-[22px] leading-[24px] font-[400] opacity-80 w-[100%]">
-            <p className="w-[20%] px-4 text-center border-r border-[#D6D6D6] py-11  hover:bg-[#E8E8E8]">
-              General
-            </p>
-            <p className=" w-[100%] py-11 group hover:bg-[#E8E8E8] indent-[350px]">
+        <ul className="questions text-center ">
+          <li className=" relative flex justify-center items-center  h-[112px] border-y border-[#D6D6D6] text-[22px] leading-[24px] font-[400] opacity-80 w-[100%]">
+            <p className=" w-[100%] py-11 group hover:bg-[#E8E8E8]">
               I want to work part-time, is that possible?
               <span>
                 <img
@@ -26,47 +23,47 @@ const QuestionsSection = () => {
             </p>
           </li>
 
-          <li className=" relative flex items-center h-[112px] border-y border-[#D6D6D6] text-[22px] leading-[24px] font-[400] opacity-80 hover:bg-[#E8E8E8] group indent-[580px]">
-            How long are the average projects?
-            <span>
-              <img
-                className="absolute top-1/2 right-12 -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100"
-                src={yellow}
-                alt=""
-              />
-            </span>
+          <li className=" relative flex justify-center items-center  h-[112px] border-y border-[#D6D6D6] text-[22px] leading-[24px] font-[400] opacity-80 w-[100%]">
+            <p className=" w-[100%] py-11 group hover:bg-[#E8E8E8]">
+              How long are the average projects?
+              <span>
+                <img
+                  className="absolute top-1/2 right-12 -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100"
+                  src={yellow}
+                  alt=""
+                />
+              </span>
+            </p>
           </li>
 
-          <li className=" relative flex items-center h-[112px] border-y border-[#D6D6D6] text-[22px] leading-[24px] font-[400] opacity-80 hover:bg-[#E8E8E8] group indent-[580px]">
-            How does the payment work?{" "}
-            <span>
-              <img
-                className="absolute top-1/2 right-12 -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100"
-                src={yellow}
-                alt=""
-              />
-            </span>
+          <li className=" relative flex justify-center items-center  h-[112px] border-y border-[#D6D6D6] text-[22px] leading-[24px] font-[400] opacity-80 w-[100%]">
+            <p className=" w-[100%] py-11 group hover:bg-[#E8E8E8]">
+              How does the payment works?
+              <span>
+                <img
+                  className="absolute top-1/2 right-12 -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100"
+                  src={yellow}
+                  alt=""
+                />
+              </span>
+            </p>
           </li>
 
-          <li className=" relative flex items-center h-[112px] border-y border-[#D6D6D6] text-[22px] leading-[24px] font-[400] opacity-80 hover:bg-[#E8E8E8] group indent-[580px]">
-            How much can I earn?
-            <span>
-              <img
-                className="absolute top-1/2 right-12 -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100"
-                src={yellow}
-                alt=""
-              />
-            </span>
+          <li className=" relative flex justify-center items-center  h-[112px] border-y border-[#D6D6D6] text-[22px] leading-[24px] font-[400] opacity-80 w-[100%]">
+            <p className=" w-[100%] py-11 group hover:bg-[#E8E8E8]">
+              How much can I earn?
+              <span>
+                <img
+                  className="absolute top-1/2 right-12 -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100"
+                  src={yellow}
+                  alt=""
+                />
+              </span>
+            </p>
           </li>
 
           <li className=" relative flex justify-center items-center h-[112px] border-y text-[22px] leading-[24px] font-[400] opacity-80 w-[100%]">
-            <p className="w-[20%] px-4 text-center border-r- border-[#D6D6D6] py-11  hover:bg-[#E8E8E8]">
-              General
-            </p>
-            <p className="w-[20%] px-4 text-center border-x border-[#D6D6D6] py-11  hover:bg-[#E8E8E8]">
-              Joining Process
-            </p>
-            <p className=" w-[100%] py-11 group hover:bg-[#E8E8E8] indent-[180px]">
+            <p className=" w-[100%] py-11 group hover:bg-[#E8E8E8] ">
               I want to work part-time, is that possible{" "}
               <span>
                 <img
@@ -79,7 +76,7 @@ const QuestionsSection = () => {
           </li>
 
           <li className=" relative flex justify-center items-center h-[112px] border-y border-[#D6D6D6] text-[22px] leading-[24px] font-[400] opacity-80 w-[100%]">
-            <p className=" w-[100%] py-11 group hover:bg-[#E8E8E8] indent-[580px]">
+            <p className=" w-[100%] py-11 group hover:bg-[#E8E8E8] ">
               How long are the average projects?{" "}
               <span>
                 <img
@@ -91,7 +88,7 @@ const QuestionsSection = () => {
             </p>
           </li>
           <li className=" relative flex items-center h-[112px] border-y border-[#D6D6D6] text-[22px] leading-[24px] font-[400] opacity-80 w-[100%]">
-            <p className=" w-[100%]  py-11 group hover:bg-[#E8E8E8] indent-[580px]">
+            <p className=" w-[100%]  py-11 group hover:bg-[#E8E8E8] ">
               How long are the average projects?{" "}
               <span>
                 <img
@@ -103,7 +100,7 @@ const QuestionsSection = () => {
             </p>
           </li>
           <li className=" relative flex items-center h-[112px] border-y border-[#D6D6D6] text-[22px] leading-[24px] font-[400] opacity-80 w-[100%]">
-            <p className=" w-[100%] py-11 group hover:bg-[#E8E8E8] indent-[580px]">
+            <p className=" w-[100%] py-11 group hover:bg-[#E8E8E8] ">
               How much can I earn?{" "}
               <span>
                 <img

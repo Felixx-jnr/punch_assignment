@@ -1,28 +1,62 @@
+import React from "react";
 import logo from "../assets/Frame 55.svg";
+import { useMediaQuery } from "react-responsive";
+import { LuMenu } from "react-icons/lu";
 
 const Navbar = () => {
+  const isMediumScreen = useMediaQuery({ query: "(max-width: 930px)" });
+
   return (
-    <div className=" flex place-items-center max-w-[96vw] mx-auto h-[60px] rounded-[15px] bg-[#525AA0] text-white px-3">
+    <div
+      className="header--container"
+      style={{ color: "white" }}
+    >
       <img
         src={logo}
-        className="w-[112px] h-[27.35px]"
-        alt="zwilt"
+        alt="Zwilt logo"
       />
-
-      <ul className="flex ml-auto">
-        <li className="mx-[30px]">Find Work</li>
-        <li className="mx-[30px]">Find Talent</li>
-        <li className="mx-[30px]">Articles</li>
-        <li className="mx-[30px]">About Us</li>
-        <li className="mx-[30px]">Contact Us</li>
-      </ul>
-
-      <ul className="flex items-center justify-center ml-auto">
-        <li className="   ">Login</li>
-        <li className="ml-[20px] py-[14px] px-[21px] text-[#202229] font-medium bg-white rounded-[16px]">
-          Sign Up
-        </li>
-      </ul>
+      {!isMediumScreen && (
+        <div
+          className="menu--options"
+          style={{
+            fontSize: "14px",
+            display: "flex",
+            gap: "32px",
+            fontWeight: 500,
+            lineHeight: "14px",
+          }}
+        >
+          <a href="#">Find work</a>
+          <a href="#">Find Talent</a>
+          <a href="#">Articles</a>
+          <a href="#">Contact Us</a>
+        </div>
+      )}
+      {!isMediumScreen && (
+        <div className="menu--options2">
+          <a href="#">Log In</a>
+          <a
+            style={{
+              marginLeft: "20px",
+              fontSize: "14px",
+              fontWeight: 500,
+              padding: "14px 21px",
+              background: "white",
+              color: "black",
+              borderRadius: "14px",
+            }}
+            href="#"
+          >
+            Join Now
+          </a>
+        </div>
+      )}
+      {isMediumScreen && (
+        <LuMenu
+          fontSize={24}
+          style={{ cursor: "pointer" }}
+        />
+      )}
     </div>
   );
 };

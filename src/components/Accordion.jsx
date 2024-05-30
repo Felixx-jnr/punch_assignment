@@ -43,7 +43,7 @@ const Accordion = ({ items }) => {
   ];
 
   return (
-    <div className="w-[646px] h-[64px] ">
+    <div className=" sm:w-[100%] ">
       {lists.map((list, index) => (
         <div
           key={index}

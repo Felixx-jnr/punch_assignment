@@ -2,33 +2,15 @@ import React from "react";
 import face from "../assets/face.gif";
 import search from "../assets/Frame 626624.svg";
 import bars from "../assets/Union.png";
-import profile from "../assets/profile.svg";
-import category from "../assets/category.svg";
-import skill from "../assets/skill.svg";
-import shopify from "../assets/shopify.svg";
-import magneto from "../assets/magnito.svg";
-import data from "../assets/data.svg";
-import webflow from "../assets/webflow.svg";
-import dotnet from "../assets/dotnet.svg";
-import next from "../assets/next.svg";
-import previous from "../assets/previous.svg";
-import figma from "../assets/figma.svg";
-import photoshop from "../assets/photoshop.svg";
-import illustrator from "../assets/illustrator.svg";
-import unreal from "../assets/unreal.svg";
-import cinema from "../assets/cinema.svg";
-import whitenext from "../assets/whitenext.svg";
-
-import Talent from "../components/Talent";
 
 const home = () => {
   return (
     <div className="home flex place-items-center mt-[144px] flex-col">
-      <h2 className="font-[700] text-5xl md:text-5xl lg:text-[54px] leading-tight sm:leading-snug md:leading-tight lg:leading-[64px] w-full max-w-[90%] md:max-w-[70%] lg:max-w-[641px] text-center text-[#202229] mx-auto">
+      <h2 className="font-bold text-5xl leading-tight sm:leading-snug md:leading-tight lg:leading-[64px] w-full max-w-[90%] md:max-w-[70%] lg:max-w-[641px] text-center text-[#202229] mx-auto">
         Finding the right fit{" "}
         <span>
           <img
-            className="inline w-[40px] sm:w-[50px] md:w-[60px] lg:w-[68px] h-auto sm:h-[35px] md:h-[40px] lg:h-[43px]"
+            className="inline w-[70px] sm:w-[50px] md:w-[60px] lg:w-[68px] h-auto"
             src={face}
             alt="face"
           />
@@ -36,56 +18,57 @@ const home = () => {
         has never been easier.
       </h2>
 
-      <p className=" w-[582px] h-[64px] mt-[20px] font-[400] opacity-80 text-[22px] text-center text-[#202229] ">
+      <p className="w-full max-w-[90%] md:max-w-[70%] lg:max-w-[582px] mt-5 font-normal opacity-80 text-lg sm:text-xl md:text-2xl text-center text-[#202229] mx-auto">
         With our rigorous pre-vetting process, you'll never have to worry about
         finding the ideal candidate ever again.
       </p>
 
       <div className="relative mt-[30px]">
-        <input
-          className=" w-[570px] h-[74px] border-[2px] border-[#F0F0F0] rounded-[15px] py-[29px] px-[27px]"
-          type="text"
-        ></input>
-        <span className=" w-[75px] h-[75px]">
-          <img
-            className="absolute top-0 right-0"
-            src={search}
-            alt="zwilt"
+        <div className="relative mt-8 max-md:mt-3 max-[80%]">
+          <input
+            className=" w-[200px] mx-4 sm:w-[400px] md:w-[570px] h-[50px] md:h-[60px] border border-[#F0F0F0] rounded-[15px] py-2 px-4 md:py-3 md:px-5"
+            type="text"
           />
-        </span>
+          <span className="absolute top-1/2 transform -translate-y-1/2 -right-2">
+            <img
+              className="w-[58px] h-[58px] md:w-[60px] md:h-[60px]"
+              src={search}
+              alt="zwilt"
+            />
+          </span>
+        </div>
       </div>
 
-      <div className=" w-[920px] h-[230px] rounded-[15px] mt-[40px] bg-[#F8F8F8]">
-        <div className=" flex h-[44px] max-w-[391px] mx-auto rounded-[15px] mt-[15px] bg-[#D2D2D2] ">
-          <p className=" inline-block p-[10px] w-[192px] bg-[#C7F4C2] rounded-[15px] font-[600] text-[16px] text-center leading-[23.78px] ">
+      <div className="w-[90%] md:w-[80%] mx-auto rounded-[15px] mt-10 bg-[#F8F8F8] p-4">
+        <div className="flex justify-center h-[44px] max-w-[300px] sm:max-w-[360px] md:max-w-[391px] mx-auto rounded-[15px] mt-4 bg-[#D2D2D2]">
+          <p className="inline-block py-2 px-3 sm:py-2 sm:px-4 md:p-[10px] w-[150px sm:w-[180px] md:w-[192px] bg-[#C7F4C2] rounded-[15px] font-[600] text-[12px] sm:text-[14px] md:text-[16px] text-center leading-[1.5] md:leading-[23.78px]">
             IT & Development
           </p>
-
-          <p className="  inline-block p-[10px] w-[192px] rounded-[15px] bg-[#D2D2D2] font-[500] text-[16px] text-center opacity-80 ">
+          <p className="inline-block py-2 px-3 sm:py-2 sm:px-4 md:p-[10px] w-[150px] sm:w-[180px] md:w-[192px] rounded-[15px] bg-[#D2D2D2] font-[500] text-[12px] sm:text-[14px] md:text-[16px] text-center opacity-80 leading-[1.5] md:leading-[23.78px]">
             Design and Creative
           </p>
         </div>
 
-        <div className="grid grid-cols-3 mt-[23px] ml-[65px] font-[400] text-[16px] leading-[16px] text-[#959595] mb-[74px]">
-          <ul>
-            <li className="mb-[18px] "> Phython Developer</li>
-            <li className="mb-[18px] ">Shopify Developer</li>
-            <li className="mb-[18px] text-[#202229] font-[500]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-6 md:mt-[23px] mx-auto font-[400] text-[12px] sm:text-[14px] md:text-[16px] leading-[1.5] text-[#959595] mb-0">
+          <ul className="text-center">
+            <li className="mb-4 md:mb-[18px]">Python Developer</li>
+            <li className="mb-4 md:mb-[18px]">Shopify Developer</li>
+            <li className="mb-4 md:mb-[18px] text-[#202229] font-[500]">
               MERN Stack Developer
             </li>
-            <li className="mb-[18px] ">Full Stack Developer</li>
+            <li className="mb-4 md:mb-[18px]">Full Stack Developer</li>
           </ul>
-          <ul>
-            <li className="mb-[18px] ">Data Scientist</li>
-            <li className="mb-[18px] ">Front End Developer</li>
-            <li className="mb-[18px] ">Shopify Developer</li>
-            <li className="mb-[18px] ">Phython Developer</li>
+          <ul className="text-center">
+            <li className="mb-4 md:mb-[18px]">Data Scientist</li>
+            <li className="mb-4 md:mb-[18px]">Front End Developer</li>
+            <li className="mb-4 md:mb-[18px]">Shopify Developer</li>
+            <li className="mb-4 md:mb-[18px]">Python Developer</li>
           </ul>
-          <ul>
-            <li className="mb-[18px] ">Shopify Developer</li>
-            <li className="mb-[18px] ">Phython Developer</li>
-            <li className="mb-[18px] ">Full Stack Developer</li>
-            <li className="mb-[18px] text-[#202229] text-[500] font-[500] ">
+          <ul className="text-center">
+            <li className="mb-4 md:mb-[18px]">Shopify Developer</li>
+            <li className="mb-4 md:mb-[18px]">Python Developer</li>
+            <li className="mb-4 md:mb-[18px]">Full Stack Developer</li>
+            <li className="mb-4 md:mb-[18px] text-[#202229] font-[500]">
               Explore More
             </li>
           </ul>
@@ -94,162 +77,10 @@ const home = () => {
 
       <div>
         <img
-          className=" w-screen mt-[74px]"
+          className="w-[3000px] mt-[74px]"
           src={bars}
           alt="zwilt"
         />
-      </div>
-
-      {/* SECTION 2 */}
-
-      <div className="flex justify-center relative h-[1130px] w-[110%] bg-[#EDEFFF] -rotate-2 -mt-4">
-        <div className=" flex flex-col items-center mt-[183px] rotate-2 text-center ">
-          <h2 className=" flex font-[700] text-[54px] leading-[64px] w-[977px]  h-[128px] text-[#202229] mb-[90px]">
-            Your one-stop marketplace for finding the talent your business
-            needs.
-          </h2>
-
-          <div className=" talent-box w-[1160px] mx-[70px] gap-16 mb-[30px] ">
-            <div>
-              <h2 className=" font-[500] text-[24px] leading-[34px] w-[380px] h-[68px] text-left text-[#202229] mb-5">
-                Find Dev and IT professionals to scale your business.
-              </h2>
-
-              <div className=" talent">
-                <img
-                  src={skill}
-                  alt="skills"
-                />
-                <img
-                  src={category}
-                  alt="skills"
-                />
-                <img
-                  src={profile}
-                  alt="skills"
-                />
-              </div>
-            </div>
-
-            <div className="w-[730px] h-[224px] bg-white px-7 rounded-[7px]">
-              <h3 className="text-[16px] leading-[23.78px] font-[500] text-left py-[18px] text-[#202229]">
-                IT & Development
-              </h3>
-
-              <div className="flex justify-around">
-                <Talent
-                  icon={shopify}
-                  name="Shopify Developer"
-                />
-
-                <Talent
-                  icon={magneto}
-                  name="Mageto Developer"
-                />
-
-                <Talent
-                  icon={data}
-                  name="Data Scientist"
-                />
-
-                <Talent
-                  icon={webflow}
-                  name="Webflow Developer"
-                />
-
-                <Talent
-                  icon={dotnet}
-                  name="Dot Net Developer"
-                />
-
-                <Talent
-                  icon={next}
-                  name=""
-                />
-              </div>
-            </div>
-          </div>
-
-          <div className=" talent-box w-[1160px] mx-[70px] gap-16 mb-[30px] ">
-            <div>
-              <h2 className=" font-[500] text-[24px] leading-[34px] w-[380px] h-[68px] text-left text-[#202229] mb-5">
-                Explore Creative individuals with a keen eye for detail.
-              </h2>
-
-              <div className=" talent">
-                <img
-                  src={skill}
-                  alt="skills"
-                />
-                <img
-                  src={category}
-                  alt="skills"
-                />
-                <img
-                  src={profile}
-                  alt="skills"
-                />
-              </div>
-            </div>
-
-            <div className="w-[730px] h-[224px] bg-white px-7 rounded-[7px]">
-              <h3 className="text-[16px] leading-[23.78px] font-[500] text-left py-[18px] text-[#202229]">
-                Design & Creative
-              </h3>
-
-              <div className="flex justify-around">
-                <Talent
-                  icon={previous}
-                  name=""
-                />
-
-                <Talent
-                  icon={figma}
-                  name="UX Designer"
-                />
-
-                <Talent
-                  icon={photoshop}
-                  name="Graphics Designer"
-                />
-
-                <Talent
-                  icon={illustrator}
-                  name="Illustration Artist"
-                />
-
-                <Talent
-                  icon={unreal}
-                  name="Unreal Engine"
-                />
-
-                <Talent
-                  icon={cinema}
-                  name="Cinema 4D"
-                />
-              </div>
-            </div>
-          </div>
-
-          <div className=" explore w-[1160px] gap-16">
-            <div className="flex place-items-center">
-              <div className="inline-flex place-items-center justify-center w-[74px] h-[74px] bg-[#202229] rounded-[30px] ">
-                <img
-                  className="w-[25px] h-[15px]"
-                  src={whitenext}
-                  alt="zwilt"
-                />
-              </div>
-              <span className="mx-3 text-[22px] font-[500] leading-[18px] text-[#202229]">
-                Explore More
-              </span>
-            </div>
-
-            <p className="text-left font-[700] text-[22px] leading-8 text-[#202229] opacity-80">
-              30 more <span className="font-[500]">to explore</span>{" "}
-            </p>
-          </div>
-        </div>
       </div>
     </div>
   );
