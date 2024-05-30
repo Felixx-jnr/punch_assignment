@@ -19,8 +19,8 @@ import Talent from "../components/Talent";
 
 const SectionB = () => {
   return (
-    <div>
-      <div className=" bg-[#EDEFFF] -skew-y-2 h-[1100px] -mt-4">
+    <div className="my-10">
+      <div className=" bg-[#EDEFFF] -skew-y-2 h-[1100px] my- -mt-4">
         <div className=" pt-[183px] skew-y-2 text-center">
           <h2 className=" text-center  font-[700] lg:text-5xl lg:px-3 sm:text-5xl text-4xl lg:leading-[64px] text-[#202229] pb-[90px] max-w-[90%] mx-auto">
             Your one-stop marketplace for finding the talent your business
@@ -164,7 +164,7 @@ const SectionB = () => {
             </div>
 
             <p className="text-left font-[700] text-[22px] leading-8 text-[#202229] opacity-80">
-              30 more <span className="font-[500]">to explore</span>{" "}
+              30 more <span className="font-[500] my-20">to explore</span>{" "}
             </p>
           </div>
         </div>
