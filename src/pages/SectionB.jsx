@@ -151,19 +151,19 @@ const SectionB = () => {
 
           <div className="talent-box max-md:flex max-md:justify-between px-4">
             <div className="flex place-items-center">
-              <div className="inline-flex place-items-center justify-center lg:w-[70px] lg:h-[70px] w-[50px] h-[50px] bg-[#202229] lg:rounded-[20px] rounded-xl ">
+              <div className="inline-flex place-items-center justify-center md:w-[70px] md:h-[70px] w-[40px] h-[40px] bg-[#202229] md:rounded-[20px] rounded-xl ">
                 <img
-                  className="lg:w-[25px] lg:h-[15px] w-[20px] h-[10px] "
+                  className="md:w-[25px] md:h-[15px] w-[20px] h-[10px] "
                   src={whitenext}
                   alt="zwilt"
                 />
               </div>
-              <span className="mx-3 lg:text-[22px] text-[18px]   font-[500] leading-[18px] text-[#202229]">
+              <span className="mx-3 lg:text-[22px] md:text-lg max-xs:text-xs leading-8  font-[500] text-[#202229]">
                 Explore More
               </span>
             </div>
 
-            <p className="text-left font-[700] lg:text-[22px] text-[18px] leading-8 text-[#202229] opacity-80">
+            <p className="text-left font-[700] lg:text-[22px] md:text-lg max-xs:text-xs leading-8 text-[#202229] opacity-80">
               30 more <span className="font-[500] my-20">to explore</span>{" "}
             </p>
           </div>
