@@ -3,9 +3,9 @@ import yellow from "../assets/yellownext.svg";
 
 const QuestionsSection = () => {
   return (
-    <div className=" flex-col relative h-[1442px] bg-[#F3F3F3] -skew-y-2 t-4 ">
+    <div className=" flex-col relative h-[1442px] bg-[#F3F3F3] -skew-y-2 px-3 ">
       <div className=" skew-y-2 ">
-        <h2 className=" text-center font-[700] text-[54px] leading-[54px] text-[#202229]  mb-[88px] pt-[134px]">
+        <h2 className=" text-center font-[700] max-xs:text-4xl max-sm:text-5xl text-6xl lg:text-[64px] lg:leading-[64px] text-[#202229]  mb-[88px] pt-[134px]">
           Frequently asked questions
         </h2>
 

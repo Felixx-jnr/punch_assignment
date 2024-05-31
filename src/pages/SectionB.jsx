@@ -8,6 +8,7 @@ import data from "../assets/data.svg";
 import webflow from "../assets/webflow.svg";
 import dotnet from "../assets/dotnet.svg";
 import next from "../assets/next.svg";
+import whitenext from "../assets/whitenext.svg";
 import previous from "../assets/previous.svg";
 import figma from "../assets/figma.svg";
 import photoshop from "../assets/photoshop.svg";
@@ -19,8 +20,8 @@ import Talent from "../components/Talent";
 const SectionB = () => {
   return (
     <div className="">
-      <div className=" bg-[#EDEFFF] -skew-y-2 h-[1200px]">
-        <div className=" pt-[183px] skew-y-2 text-center">
+      <div className=" bg-[#EDEFFF] -skew-y-2">
+        <div className=" py-[50px] skew-y-2 text-center">
           <h2 className=" text-center  font-[700] lg:text-5xl lg:px-3 sm:text-5xl text-4xl lg:leading-[64px] text-[#202229] pb-[90px] max-w-[90%] mx-auto">
             Your one-stop marketplace for finding the talent your business
             needs.
@@ -114,7 +115,7 @@ const SectionB = () => {
                 Design & Creative
               </h3>
 
-              <div className="flex justify-around max-md:grid max-md:grid-cols-6 max-sm:grid-rows-1 ">
+              <div className="flex justify-around max-md:grid max-md:grid-cols-6 max-md:justify-items-center ">
                 <Talent
                   icon={previous}
                   name=""
@@ -148,24 +149,24 @@ const SectionB = () => {
             </div>
           </div>
 
-          {/* <div className=" explore talent-box gap-16">
+          <div className="talent-box max-md:flex max-md:justify-between px-4">
             <div className="flex place-items-center">
-              <div className="inline-flex place-items-center justify-center w-[74px] h-[74px] bg-[#202229] rounded-[30px] ">
+              <div className="inline-flex place-items-center justify-center lg:w-[70px] lg:h-[70px] w-[50px] h-[50px] bg-[#202229] lg:rounded-[20px] rounded-xl ">
                 <img
-                  className="w-[25px] h-[15px]"
+                  className="lg:w-[25px] lg:h-[15px] w-[20px] h-[10px] "
                   src={whitenext}
                   alt="zwilt"
                 />
               </div>
-              <span className="mx-3 text-[22px] font-[500] leading-[18px] text-[#202229]">
+              <span className="mx-3 lg:text-[22px] text-[18px]   font-[500] leading-[18px] text-[#202229]">
                 Explore More
               </span>
             </div>
 
-            <p className="text-left font-[700] text-[22px] leading-8 text-[#202229] opacity-80">
+            <p className="text-left font-[700] lg:text-[22px] text-[18px] leading-8 text-[#202229] opacity-80">
               30 more <span className="font-[500] my-20">to explore</span>{" "}
             </p>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>

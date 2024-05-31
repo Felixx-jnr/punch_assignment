@@ -10,7 +10,7 @@ import numthree from "../assets/three.svg";
 const SectionE = () => {
   return (
     <div className=" h-[1225.5px] mt-[104px] flex flex-col items-center ">
-      <h2 className=" font-[700] text-4xl lg:text-[54px] lg:leading-[64px] mb-[50px] w-[82.4vw] text-center text-[#202229] ">
+      <h2 className=" font-[700] max-xs:text-4xl max-sm:text-5xl text-6xl lg:text-[64px] lg:leading-[64px] mb-[50px] w-[82.4vw] text-center text-[#202229] ">
         Start your journey today.
       </h2>
 
