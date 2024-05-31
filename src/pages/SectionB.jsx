@@ -18,8 +18,8 @@ import Talent from "../components/Talent";
 
 const SectionB = () => {
   return (
-    <div className="my-10">
-      <div className=" bg-[#EDEFFF] -skew-y-2 h-[1100px] -mt-4">
+    <div className="">
+      <div className=" bg-[#EDEFFF] -skew-y-2 h-[1200px]">
         <div className=" pt-[183px] skew-y-2 text-center">
           <h2 className=" text-center  font-[700] lg:text-5xl lg:px-3 sm:text-5xl text-4xl lg:leading-[64px] text-[#202229] pb-[90px] max-w-[90%] mx-auto">
             Your one-stop marketplace for finding the talent your business

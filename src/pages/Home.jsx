@@ -41,7 +41,7 @@ const home = () => {
 
       <div className="w-[90%] md:w-[80%] mx-auto rounded-[15px] mt-10 bg-[#F8F8F8] p-4">
         <div className="flex justify-center h-[44px] max-w-[300px] sm:max-w-[360px] md:max-w-[391px] mx-auto rounded-[15px] mt-4 bg-[#D2D2D2]">
-          <p className="inline-block py-2 px-3 sm:py-2 sm:px-4 md:p-[10px] w-[150px sm:w-[180px] md:w-[192px] bg-[#C7F4C2] rounded-[15px] font-[600] text-[12px] sm:text-[14px] md:text-[16px] text-center leading-[1.5] md:leading-[23.78px]">
+          <p className="inline-block py-2 px-10 sm:py-2 sm:px-4 md:p-[10px] w-[150px sm:w-[180px] md:w-[192px] bg-[#C7F4C2] rounded-[15px] font-[600] text-[12px] sm:text-[14px] md:text-[16px] text-center leading-[1.5] md:leading-[23.78px]">
             IT & Development
           </p>
           <p className="inline-block py-2 px-3 sm:py-2 sm:px-4 md:p-[10px] w-[150px] sm:w-[180px] md:w-[192px] rounded-[15px] bg-[#D2D2D2] font-[500] text-[12px] sm:text-[14px] md:text-[16px] text-center opacity-80 leading-[1.5] md:leading-[23.78px]">

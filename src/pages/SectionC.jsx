@@ -8,7 +8,7 @@ import apostrophe from "../assets/apostrophe.svg";
 
 const SectionC = () => {
   return (
-    <div className=" flex items-center relative -mt-10 bg-[#202229] py-20 text-[#FFF] text-center -skew-y-2 ">
+    <div className=" flex items-center relative bg-[#202229] py-20 text-[#FFF] text-center -skew-y-2 ">
       <img
         className="absolute top-0 right-0"
         src={apostrophe}
