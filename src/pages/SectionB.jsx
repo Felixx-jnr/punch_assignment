@@ -14,20 +14,19 @@ import photoshop from "../assets/photoshop.svg";
 import illustrator from "../assets/illustrator.svg";
 import unreal from "../assets/unreal.svg";
 import cinema from "../assets/cinema.svg";
-import whitenext from "../assets/whitenext.svg";
 import Talent from "../components/Talent";
 
 const SectionB = () => {
   return (
     <div className="my-10">
-      <div className=" bg-[#EDEFFF] -skew-y-2 h-[1100px] my- -mt-4">
+      <div className=" bg-[#EDEFFF] -skew-y-2 h-[1100px] -mt-4">
         <div className=" pt-[183px] skew-y-2 text-center">
           <h2 className=" text-center  font-[700] lg:text-5xl lg:px-3 sm:text-5xl text-4xl lg:leading-[64px] text-[#202229] pb-[90px] max-w-[90%] mx-auto">
             Your one-stop marketplace for finding the talent your business
             needs.
           </h2>
 
-          <div className=" talent-box max-md:grid-cols-1 mb-[30px] mx-2 max-sm:grid-rows-1">
+          <div className=" talent-box max-md:grid-cols-1 mb-[30px] mx-1 max-sm:grid-rows-1 px-4">
             <div>
               <h2 className=" font-[500] lg:text-[24px] md:text-xl sm:text-lg  leading-[34px] text-left text-[#202229] mb-5">
                 Find Dev and IT professionals to scale your business.
@@ -88,7 +87,7 @@ const SectionB = () => {
             </div>
           </div>
 
-          <div className=" talent-box max-md:grid-cols-1 mb-[30px] mx-2 max-sm:grid-rows-1">
+          <div className=" talent-box max-md:grid-cols-1 mb-[30px] mx-1 max-sm:grid-rows-1 px-4">
             <div>
               <h2 className=" font-[500] lg:text-[24px] md:text-xl sm:text-lg  leading-[34px] text-left text-[#202229] mb-5">
                 Explore Creative individuals with a keen eye for detail.
@@ -149,7 +148,7 @@ const SectionB = () => {
             </div>
           </div>
 
-          <div className=" explore talent-box gap-16">
+          {/* <div className=" explore talent-box gap-16">
             <div className="flex place-items-center">
               <div className="inline-flex place-items-center justify-center w-[74px] h-[74px] bg-[#202229] rounded-[30px] ">
                 <img
@@ -166,7 +165,7 @@ const SectionB = () => {
             <p className="text-left font-[700] text-[22px] leading-8 text-[#202229] opacity-80">
               30 more <span className="font-[500] my-20">to explore</span>{" "}
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

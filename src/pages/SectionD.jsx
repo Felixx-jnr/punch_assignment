@@ -6,7 +6,7 @@ const SectionD = () => {
     <div className="flex justify-left relative mt-5 h-[998px] lg:w-[70%] bg-[#fff] -skew-y-2">
       <div className=" grid skew-2 text-left skew-y-2">
         <div className="mx-[70px]">
-          <h2 className=" font-[700] lg:text-[54px] md:text-[34px] text-[24px] lg:leading-[64px] md:leading-[32px] leading-[20px] mt-[149px] mb-[30px] text-[#202229]">
+          <h2 className=" text-center font-[700] text-[54px] leading-[54px] text-[#202229]  mb-[20px] pt-[134px]">
             How we ensure you’re in good hands.
           </h2>
 

@@ -8,7 +8,7 @@ import apostrophe from "../assets/apostrophe.svg";
 
 const SectionC = () => {
   return (
-    <div className=" flex items-center relative h-[840px] bg-[#202229] text-[#FFF] text-center -skew-y-2 ">
+    <div className=" flex items-center relative -mt-10 bg-[#202229] py-20 text-[#FFF] text-center -skew-y-2 ">
       <img
         className="absolute top-0 right-0"
         src={apostrophe}
@@ -16,8 +16,8 @@ const SectionC = () => {
       />
       <div className=" relative left-1/2 -translate-x-1/2 text-left max-w-[90%] skew-y-2">
         <div className="grid grid-cols-2 max-md:block gap-10 mx-2">
-          <div className=" w-[100%] mb-12">
-            <h1 className=" w-[343px] text-[54px] md:text-[42px] font-[700] leading-[4rem] mb-[44.002px] ">
+          <div className=" 2xl:w-[60%] lg:w-[80%] mb-12">
+            <h1 className="  text-[42px] font-[700] ">
               How it worked for Jason{" "}
               <img
                 className="inline rounded-full"
@@ -26,12 +26,12 @@ const SectionC = () => {
               />{" "}
               at{" "}
               <img
-                className="inline"
+                className="groove"
                 src={groove}
                 alt="groove"
               />
             </h1>
-            <p className=" text-[22px] leading-[32px] font-[400] opacity-80 mb-10 ">
+            <p className=" basis-40 text-[#fff] font-[400] lg:leading-[32.003px] text-[21.997px] leading-[32.003px] opacity-80  ">
               Zwilt enabled us to deliver on time and they’ve been heavy hitters
               in our corner since.
             </p>
@@ -54,9 +54,9 @@ const SectionC = () => {
           </div>
 
           <div className="flex flex-col justify-end">
-            <div className=" flex gap-[16.207px] items-center mb-[56.002px] max-md:justify-end">
+            <div className=" flex gap-[16.207px] items-center md:my-[56.002px] max-md:justify-end">
               <img
-                className="bg-[#AF7CFF] w-[98.79px] h-[98.79px] rounded-[40.05px] px-[11.003px] py-[39.998px]"
+                className="bg-[#AF7CFF] w-[98.79px] h-[98.79px] rounded-[40.05px] px-[11.003px] py-[39.998px] max-md:"
                 src={bordergroove}
                 alt="groove"
               />
