@@ -3,7 +3,7 @@ import Slider from "../components/Slider";
 
 const SectionD = () => {
   return (
-    <div className=" flex bg-[#FDFDFD] h-[1025px]  ">
+    <div className=" flex bg-[#FDFDFD] py-40  ">
       <div className="relative flex justify-center items-center mt-[144px]"></div>
 
       <div className="card-grid max-lg:grid-cols-1 max-lg:items-center items-center  ">
@@ -16,7 +16,7 @@ const SectionD = () => {
             to the world’s highly qualified talent pool.
           </p>
         </div>
-        <div className="w-[70vw]">
+        <div className="w-[70vw] h-[440px] max-lg:w-[100vw]">
           <Slider />
         </div>
       </div>

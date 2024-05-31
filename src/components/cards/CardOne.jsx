@@ -46,17 +46,16 @@ const CardOne = () => {
               </span>
               Risk-free resource swapping for the best fit.
             </p>
-          </div>
-
-          <div className="flex items-center">
-            <div className="relative w-[30px] h-[30px] md:w-[49.79px] md:h-[49.79px]  bg-[#202229] rounded-[20.19px] mr-2">
-              <img
-                className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max:md-8"
-                src={next}
-                alt="zwilt"
-              />
+            <div className="flex items-center py-4">
+              <div className="relative w-[30px] h-[30px] md:w-[49.79px] md:h-[49.79px]  bg-[#202229] rounded-[20.19px] mr-2">
+                <img
+                  className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max:md-8"
+                  src={next}
+                  alt="zwilt"
+                />
+              </div>
+              <p className="font-[500] text-2xl md:text-lg ">Learn Now</p>
             </div>
-            <p className="font-[500] text-2xl md:text-lg ">Learn Now</p>
           </div>
         </div>
 
