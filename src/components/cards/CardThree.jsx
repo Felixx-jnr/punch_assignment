@@ -2,8 +2,6 @@ import React from "react";
 import next from "../../assets/whitenext.svg";
 import whitedot from "../../assets/whitedot.svg";
 import track from "../../assets/trackk.svg";
-import timer from "../../assets/timerr.svg";
-import progess from "../../assets/progresss.svg";
 
 const CardThree = () => {
   return (

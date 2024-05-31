@@ -16,7 +16,7 @@ const SectionD = () => {
             to the world’s highly qualified talent pool.
           </p>
         </div>
-        <div className="w-[70vw] h-[440px] max-lg:w-[100vw]">
+        <div className="w-[70vw] max-lg:w-[100vw]">
           <Slider />
         </div>
       </div>
